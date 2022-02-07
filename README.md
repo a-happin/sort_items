@@ -1,4 +1,4 @@
-datapack-template
+sort_items
 ==
 
 ## Features
