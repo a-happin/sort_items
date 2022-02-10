@@ -1,6 +1,8 @@
 sort_items
 ==
 
+A library for sorting the contents of containers. (for JE 1.18.1)
+
 ## Features
 
 - Sort items in a container as if a player did
@@ -47,6 +49,10 @@ execute in overworld positioned 0 0 0 run function sort_items:block/descend/
 ## sort items in the nearest chest_minecart
 execute as @e[type=chest_minecart,sort=nearest,limit=1] run function sort_items:entity/descend/
 ```
+
+### Example of wrapper datapack
+
+- [sort_items_wrapper_example](https://github.com/a-happin/sort_items_wrapper_example)
 
 ## Requirement
 
