@@ -1,5 +1,5 @@
-#> sort_items:_impl/reassign_slots/up_to_54slots
-#@within function sort_items:**/up_to_54slots
+#> sort_items:_impl/reassign_slots/54slots
+#@within function sort_items:**/54slots
 
 execute if data storage : _[-1].Items[0] run data modify storage : _[-1].Items[0].Slot set value 0b
 execute if data storage : _[-1].Items[1] run data modify storage : _[-1].Items[1].Slot set value 1b

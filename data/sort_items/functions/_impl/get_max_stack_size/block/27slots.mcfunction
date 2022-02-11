@@ -1,7 +1,7 @@
-#> sort_items:_impl/get_max_stack_size/block/up_to_27slots
+#> sort_items:_impl/get_max_stack_size/block/27slots
 #@within
-#  function sort_items:block/*/up_to_27slots
-#  function sort_items:_impl/get_max_stack_size/block/up_to_54slots
+#  function sort_items:block/*/27slots
+#  function sort_items:_impl/get_max_stack_size/block/54slots
 
 item modify block ~ ~ ~ container.0 sort_items:set_count_max
 item modify block ~ ~ ~ container.1 sort_items:set_count_max

@@ -1,4 +1,4 @@
-#> sort_items:block/descend/up_to_9slots
+#> sort_items:block/descend/27slots
 #@within function sort_items:block/descend/
 
 #>
@@ -10,7 +10,7 @@ scoreboard objectives add _sort_items dummy
     data modify storage : _[-1].Items set from block ~ ~ ~ Items
 
     ## get max stack size
-    function sort_items:_impl/get_max_stack_size/block/up_to_9slots
+    function sort_items:_impl/get_max_stack_size/block/27slots
 
     ## remove Items[].Slot
     data remove storage : _[-1].Items[].Slot
@@ -26,7 +26,7 @@ scoreboard objectives add _sort_items dummy
     function sort_items:_impl/restore/
 
     ## Slotを再割り当て
-    function sort_items:_impl/reassign_slots/up_to_9slots
+    function sort_items:_impl/reassign_slots/27slots
 
     ## convert
     data modify block ~ ~ ~ Items set from storage : _[-1].Items

@@ -1,16 +1,17 @@
-#> sort_items:entity/ascend/up_to_27slots
-#@within function sort_items:entity/ascend/
+#> sort_items:block/ascend/54slots
+#@within function sort_items:block/ascend/54slots/preprocess2
 
 #>
 #@within sort_items:**
 scoreboard objectives add _sort_items dummy
-  data modify storage : _ append value {}
+  data modify storage : _ append value {Items2: []}
 
     ## convert to NBT
-    data modify storage : _[-1].Items set from entity @s Items
+    data modify storage : _[-1].Items set from block ~ ~ ~ Items
+    data modify storage : _[-1].Items append from block ^ ^ ^1 Items[]
 
     ## get max stack size
-    function sort_items:_impl/get_max_stack_size/entity/up_to_27slots
+    function sort_items:_impl/get_max_stack_size/block/54slots
 
     ## remove Items[].Slot
     data remove storage : _[-1].Items[].Slot
@@ -26,10 +27,12 @@ scoreboard objectives add _sort_items dummy
     function sort_items:_impl/restore/
 
     ## Slotを再割り当て
-    function sort_items:_impl/reassign_slots/up_to_27slots
+    function sort_items:_impl/reassign_slots/54slots
 
     ## convert
-    data modify entity @s Items set from storage : _[-1].Items
+    execute if data storage : _[-1].Items[27] run function sort_items:_impl/split_over_27slots
+    data modify block ^ ^ ^1 Items set from storage : _[-1].Items2
+    data modify block ~ ~ ~ Items set from storage : _[-1].Items
 
   data remove storage : _[-1]
 scoreboard objectives remove _sort_items

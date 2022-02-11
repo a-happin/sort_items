@@ -1,5 +1,5 @@
 #> sort_items:_impl/split_over_27slots
-#@within function sort_items:**/up_to_54slots
+#@within function sort_items:**/54slots
 
 data modify storage : _[-1].Items2 append from storage : _[-1].Items[27]
 data modify storage : _[-1].Items2 append from storage : _[-1].Items[28]
