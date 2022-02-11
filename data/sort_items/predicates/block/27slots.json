@@ -1,0 +1,24 @@
+{
+  "condition": "alternative",
+  "terms": [
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "tag": "sort_items:containers/27slots"
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "tag": "sort_items:containers/27_or_54slots",
+          "state": {
+            "type": "single"
+          }
+        }
+      }
+    }
+  ]
+}
