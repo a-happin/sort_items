@@ -5,7 +5,7 @@ A library for sorting the contents of containers. (for JE 1.18.1)
 
 ## Features
 
-- Sort items in a container as if a player did
+- Sort items in a container
 - stable sort
 
 ### Available
@@ -26,7 +26,7 @@ A library for sorting the contents of containers. (for JE 1.18.1)
 - `chest_minecart`
 
 ### Unsupported
-- `ender_chest`
+- player inventory
 - contents of unplaced `#shulker_boxes`
 - contents of `bundle`
 
