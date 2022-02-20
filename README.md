@@ -34,10 +34,12 @@ A library for sorting the contents of containers. (for JE 1.18.1)
 
 |function|description|
 |:-:|:-:|
-|`sort_items:block/ascend/`|Sort items in a conatiner block in ascending order by Count|
-|`sort_items:block/descend/`|Sort items in a conatiner block in descending order by Count|
-|`sort_items:entity/ascend/`|Sort items in a conatiner entity in ascending order by Count|
-|`sort_items:entity/descend/`|Sort items in a conatiner entity in descending order by Count|
+|`sort_items:block/ascend/`|Sort items in the conatiner block at `~ ~ ~` in ascending order by Count|
+|`sort_items:block/descend/`|Sort items in the conatiner block at `~ ~ ~` in descending order by Count|
+|`sort_items:block/no_sort/`|Sort items in the conatiner block at `~ ~ ~` in same order as the first<br>(Just put the same items together)|
+|`sort_items:entity/ascend/`|Sort items in `@s` in ascending order by Count|
+|`sort_items:entity/descend/`|Sort items in `@s` in descending order by Count|
+|`sort_items:entity/no_sort/`|Sort items in `@s` in same order as the first<br>(Just put the same items together)|
 
 ### Example code
 
