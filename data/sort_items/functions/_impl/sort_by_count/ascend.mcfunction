@@ -4,7 +4,7 @@
 #@output storage : _[-1].list
 
 data modify storage : _ append value {descend: [[]]}
-  scoreboard players reset $2 _sort_items
+  scoreboard players set $2 _sort_items 2147483647
   function sort_items:_impl/sort_by_count/_impl/descend/setup
   function sort_items:_impl/sort_by_count/_impl/ascend/
 
