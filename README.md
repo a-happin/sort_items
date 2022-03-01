@@ -1,7 +1,7 @@
 sort_items
 ==
 
-A library for sorting the contents of containers. (for JE 1.18.1)
+A library for sorting the contents of containers.
 
 ## Features
 
@@ -57,6 +57,8 @@ execute as @e[type=chest_minecart,sort=nearest,limit=1] run function sort_items:
 - [sort_items_wrapper_example](https://github.com/a-happin/sort_items_wrapper_example)
 
 ## Requirement
+
+- Minecraft JE 1.18.2
 
 ## Installation
 
