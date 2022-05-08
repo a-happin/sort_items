@@ -1,7 +1,7 @@
 sort_items_wrapper_example
 ==
 
-This is an example of [sort_items](https://github.com/a-happin/sort_items) wrapper datapack.
+This is an example usage of [sort_items](../sort_items) wrapper datapack.
 
 ## Features
 
@@ -12,7 +12,7 @@ This is an example of [sort_items](https://github.com/a-happin/sort_items) wrapp
 
 ## Requirement
 
-- [sort_items](https://github.com/a-happin/sort_items)
+- [sort_items](../sort_items)
 
 ## Installation
 
