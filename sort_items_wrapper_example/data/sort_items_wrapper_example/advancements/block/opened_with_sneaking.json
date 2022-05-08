@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "": {
+      "trigger": "item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "air"
+          ]
+        },
+        "location": {
+          "block": {
+            "tag": "sort_items:containers"
+          }
+        },
+        "player": {
+          "flags": {
+            "is_sneaking": true
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "sort_items_wrapper_example:block/opened_with_sneaking"
+  }
+}

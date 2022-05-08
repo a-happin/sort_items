@@ -1,0 +1,5 @@
+#> sort_items_wrapper_example:entity/opened_with_sneaking
+#@within advancement sort_items_wrapper_example:entity/opened_with_sneaking
+
+advancement revoke @s only sort_items_wrapper_example:entity/opened_with_sneaking
+function sort_items_wrapper_example:entity/find
