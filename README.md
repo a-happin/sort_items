@@ -65,8 +65,8 @@ execute as @e[type=chest_minecart,sort=nearest,limit=1] run function sort_items:
 ## License
 The code except following directories follows [Creative Commons Zero v1.0 Universal](LICENSE).
 
-- [data/sort_items/functions/_impl/sort](data/sort_items/functions/_impl/sort) ([MIT LICENSE](data/sort_items/functions/_impl/sort/LICENSE) / Copyright by 赤石愛)
-- [data/sort_items/functions/_impl/sort_by_count](data/sort_items/functions/_impl/sort_by_count) ([MIT LICENSE](data/sort_items/functions/_impl/sort/LICENSE) / Copyright by 赤石愛)
+- [sort_items/data/sort_items/functions/_impl/sort](sort_items/data/sort_items/functions/_impl/sort) ([MIT LICENSE](data/sort_items/functions/_impl/sort/LICENSE) / Copyright by 赤石愛)
+- [sort_items/data/sort_items/functions/_impl/sort_by_count](sort_items/data/sort_items/functions/_impl/sort_by_count) ([MIT LICENSE](sort_items/data/sort_items/functions/_impl/sort/LICENSE) / Copyright by 赤石愛)
 
 ## Acknowledgements
 
