@@ -54,7 +54,7 @@ execute as @e[type=chest_minecart,sort=nearest,limit=1] run function sort_items:
 
 ### Example of wrapper datapack
 
-- [sort_items_wrapper_example](https://github.com/a-happin/sort_items_wrapper_example)
+- [sort_items_wrapper_example](./sort_items_wrapper_example)
 
 ## Requirement
 
