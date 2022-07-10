@@ -34,4 +34,7 @@ summon marker ~ ~ ~ {Tags: ["sort_items.test"]}
   schedule function test:entity/chest_minecart/empty 22t replace
   schedule function test:entity/chest_minecart/cobblestone_27 23t replace
 
+  schedule function test:entity/chest_boat/empty 24t replace
+  schedule function test:entity/chest_boat/cobblestone_27 25t replace
+
 schedule function test:end 24t replace

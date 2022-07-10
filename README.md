@@ -24,6 +24,7 @@ A library for sorting the contents of containers.
 
 - `hopper_minecart`
 - `chest_minecart`
+- `chest_boat`
 
 ### Unsupported
 - player inventory
@@ -58,7 +59,7 @@ execute as @e[type=chest_minecart,sort=nearest,limit=1] run function sort_items:
 
 ## Requirement
 
-- Minecraft JE 1.18.2
+- Minecraft JE 1.19
 
 ## Installation
 
